@@ -1,0 +1,13 @@
+{ //obiekt przechowuje pary wartości klucz - wartość opisane poniżej
+    "name": "Josh", //string przechowujący imię obiektu
+    "weight": 175, //integer przechowujący wzrost obiektu
+    "age": 30, //integer przechowujący wiek obiektu
+    "eyecolor": "brown", //string przechowujący kolor oczu obiektu
+    "isHappy": true, //wartość boolean przechowująca informację o tym czy obiekt jest szczęśliwy
+    "cars": ["Chevy", "Honda"], //tablica obiektów typu string prawdopodobnie przechowująca infromację markach samochodów
+    "favoouriteBook": { //w tym przypadku kluczem jest favoouriteBook,a wartością jest obiekt będący ulubioną książką, zswierający swoje klucze i wartości
+        "title": "The Last Kingdom", //klucz title obiektu wewnętrznego przechowujacy tytuł ksiązki
+        "author": "Bernard Cornwell", //klucz author obiektu wewnętrznego przechowujacy autora ksiązki
+        "rating": 8.38 //klucz rating obiektu wewnętrznego przechowujacy ocenę ksiązki
+    }
+}
